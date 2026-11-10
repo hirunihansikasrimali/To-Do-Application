@@ -12,7 +12,7 @@ body{
 
 .card{
     padding: 40px;
-    background: rgb(255, 255, 255, 0.1);
+    background: rgba(255, 255, 255, 0.799);
     border-radius: 15px;
     backdrop-filter: blur(10px);
 }
@@ -29,4 +29,5 @@ h4{
     font: bold;
     font-size: 40px;
     font-weight: bold;
+    
 }
