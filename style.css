@@ -10,6 +10,13 @@ body{
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx1X0bmWEfWxcZzTZARs3VbljhuSN5XOKpv-ivVu2T9Q&s);
 }
 
+.card{
+    padding: 40px;
+    background: rgb(255, 255, 255, 0.1);
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+}
+
 h1{
     color: white;
     font: bold;
