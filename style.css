@@ -56,4 +56,6 @@ h1{
     border: 0;
     width: 43px;
     height: 43px;
+    border-radius: 5px;
+    font-size: 1.6rcm;
 }
