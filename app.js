@@ -1,5 +1,0 @@
-const ToDoList=[];
-
-function btnAddTask(){
-    
-}

@@ -8,6 +8,10 @@ body{
     width: 100%;
     min-height: 100vh;
     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx1X0bmWEfWxcZzTZARs3VbljhuSN5XOKpv-ivVu2T9Q&s);
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card{
