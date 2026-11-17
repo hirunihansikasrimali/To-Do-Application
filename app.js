@@ -9,6 +9,7 @@ addTaskbtn.addEventListener("click", () =>{
     todoWrapper.classList.add("todo-container");
     deleteButton.classList.add("delete-button");
     taskText.classList.add("task-text");
+    taskText.textContent = task.value;
     todoWrapper.append(taskText);
     todoWrapper.append(deleteButton);
     taskContainer.append(todoWrapper);
