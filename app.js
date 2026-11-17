@@ -7,4 +7,5 @@ addTaskbtn.addEventListener("click", () =>{
     const deleteButton = document.createElement("button");
     const taskText = document.createElement("p");
     todoWrapper.classList.add("todo-container");
+    deleteButton.classList.add("delete-button");
 })
