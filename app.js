@@ -10,4 +10,5 @@ addTaskbtn.addEventListener("click", () =>{
     deleteButton.classList.add("delete-button");
     taskText.classList.add("task-text");
     todoWrapper.append(taskText);
+    todoWrapper.append(deleteButton);
 })
