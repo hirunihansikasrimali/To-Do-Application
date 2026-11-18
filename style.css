@@ -62,8 +62,42 @@ h1{
     cursor: pointer;
 }
 
-.todo-container{}
+/* .todo-container{}
 
 .task-text{}
 
-.delete-button{}
+.delete-button{} */
+
+
+.card {
+    min-height: 200px;
+    height: auto;
+}
+
+#task {
+    flex: 1;
+}
+
+.todo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.15);
+    padding: 12px;
+    margin-top: 15px;
+    border-radius: 10px;
+    color: white;
+}
+
+.task-text {
+    margin: 0;
+}
+
+.delete-button {
+    background: #dc3545;
+    color: white;
+    border: none;
+    padding: 7px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+}
